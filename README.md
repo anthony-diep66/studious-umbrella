@@ -23,11 +23,16 @@ Where:
 4. simulationTime: Time for simulation
 5. processArrivalRate: A probability for when a Process arrives into the queue
     
-    
+## Program design and important concepts:
+**Many of the files used were borrowed from BSU public resources github**. All files that were borrowed will have a Javadoc comment at the top labeling it.
+
+This program is not 100% correct, there does seem to be inaccuracies concerning the expected results but all test files given from BSU's github huns successfully without exiting abnormally. This program contains several interfaces for classes and one exception class for the heap. The "main" file in this program is "CPUScheduling.java" where the simulation starts. Files such as ProcesGenerator.java creates processes from the Process.java file and inserts them into a priority queue made up of MaxHeap.java and MyPriorityQueue.java.
+
   
 ## Sources used
 1. [The Oracle Documentation]( https://docs.oracle.com/javase/7/docs/api/java/util/Random.html) for a reminder of how random number generation worked
 2. [Article on Caches by GeeksforGeeks](https://www.geeksforgeeks.org/max-heap-in-java/#:~:text=A%20max%2Dheap%20is%20a,child%20at%20index%202k%2B2) was used for more information on how the CPU Scheduling worked
+3. Starting code was taken from [BSU's github public resources](https://github.com/BoiseState/CS321-resources/tree/master/projects/p2)
 
   
   
