@@ -27,7 +27,7 @@ HashTest.java is the main driver of the program where depending on the command l
 1. [The Oracle Documentation]( https://docs.oracle.com/javase/8/docs/api/java/util/HashMap.htm) for more information on the methods of HashMap
 2. A [Stack Overflow Question](https://stackoverflow.com/questions/20647969/change-boolean-values) was used to figure out a way of passing values by reference. This was used for the classes `BooleanHolder` and `IntegerHolder`.
 3. In class lecture notes was used to override the equals method for HashObject.java
-4. The website [Algorithms for Competitive Coding](https://cp-algorithms.web.app/algebra/primality_tests.html) was used for understanding the functions of PrimeGenerator.java
+4. The website [Algorithms for Competitive Programming](https://cp-algorithms.web.app/algebra/primality_tests.html) was used for understanding the functions of PrimeGenerator.java
 
 
   
